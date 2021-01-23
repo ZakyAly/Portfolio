@@ -1,299 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zaky Aly</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Sedgwick+Ave&family=Sedgwick+Ave+Display&display=swap"
-      rel="stylesheet"
-    />
-    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/master.css" />
-  </head>
-  <body>
-    <header>
-      <div class="menu-toggler" id="menu-toggler">
-        <div class="bar half start"></div>
-        <div class="bar"></div>
-        <div class="bar half end"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zaky Aly</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arizonia&family=Sedgwick+Ave&family=Sedgwick+Ave+Display&display=swap"
+    rel="stylesheet" />
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="menu-toggler" id="menu-toggler">
+      <div class="bar half start"></div>
+      <div class="bar"></div>
+      <div class="bar half end"></div>
+    </div>
+    <nav class="top-nav" id="top-nav">
+      <ul class="nav-list">
+        <li>
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="#skills" class="nav-link">Skills</a>
+        </li>
+        <li>
+          <a href="#experince" class="nav-link">Experince</a>
+        </li>
+        <li>
+          <a href="#education" class="nav-link">Education</a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="landing-text">
+      <h1>Hi,</h1>
+      <h1>I'm Zaky</h1>
+      <h6>Front-End Developer / Freelancer</h6>
+    </div>
+  </header>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+        <img src="imgs/profile01.jpg" alt="" />
       </div>
-      <nav class="top-nav" id="top-nav">
-        <ul class="nav-list">
-          <li>
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li>
-            <a href="#experince" class="nav-link">Experince</a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="landing-text">
-        <h1>Hi,</h1>
-        <h1>I'm Zaky</h1>
-        <h6>Front-End Developer / Freelancer</h6>
-      </div>
-    </header>
-    <section class="about" id="about">
-      <div class="container">
-        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-          <img src="imgs/profile01.jpg" alt="" />
+      <div class="about-details" data-aos="fade-left" data-aos-delay="300">
+        <div class="about-heading">
+          <h1>About</h1>
+          <h6>Me</h6>
         </div>
-        <div class="about-details" data-aos="fade-left" data-aos-delay="300">
-          <div class="about-heading">
-            <h1>About</h1>
-            <h6>Me</h6>
-          </div>
-          <p>
-            <br />
-            I'm a Front-End Developer 👨‍💻,
-            <i class="fas fa-map-marker-alt"></i> Berlin, Germany.
-            <br />
-            <br />
-            I have a firm knowledge of HTML, CSS, and JavaScript language and
-            possess a good knowledge of computer software packages (frameworks
-            and tools) that are used in today’s technology.
-            <br />
-            <br />
-            On a personal level, I am a highly motivated, result-oriented,
-            self-driven, hard-working, fast learner, and constantly seeking to
-            improve my skills and am fully aware of the latest Front-end
-            Development Tools.
-            <br />
-            <br />
-            In addition to this, I can adapt to any type of team environment, I
-            am team-oriented and get along with others when working in a group
-            setting. I also can work independently while staying on schedule and
-            meeting those tight deadlines.
-          </p>
-        </div>
+        <p class="about-text">
+          After 9 years of full-time work experience in the Tourism industry,
+          <br />
+          <br />
+          I developed myself by shifting to a new career which I was always
+          passionate about.
+          <br />
+          <br />
+          And after relocating to
+          <i class="fas fa-map-marker-alt"></i> Berlin, Germany I focused on
+          learning frontend development more deeply to start my professional
+          tech career.
+          <br />
+          I currently work mainly with <span>Javascript</span> in the
+          <span>React</span> framework. Besides that, I’m a geek with details
+          and a problem solver. In my free time, I enjoy playing football,
+          cycling and reading.
+        </p>
       </div>
-    </section>
-    <section>
-      <div class="skills" id="skills">
-        <div class="container">
-          <div class="section-heading">
-            <h1>Skills</h1>
-            <h6></h6>
-          </div>
-          <div class="skill-box" data-aos="fade-in" data-aos-delay="300">
-            <div class="skill-name"><i class="fab fa-html5"></i> HTML5</div>
-            <div class="skill-progress">
-              <span data-progress="90%">90%</span>
-            </div>
-          </div>
-          <div class="skill-box" data-aos="fade-in" data-aos-delay="350">
-            <div class="skill-name"><i class="fab fa-css3"></i> CSS3</div>
-            <div class="skill-progress">
-              <span data-progress="85%">85%</span>
-            </div>
-          </div>
-          <div class="skill-box" data-aos="fade-in" data-aos-delay="400">
-            <div class="skill-name"><i class="fab fa-js"></i> JavaScript</div>
-            <div class="skill-progress">
-              <span data-progress="85%">85%</span>
-            </div>
-          </div>
-          <div class="skill-box" data-aos="fade-in" data-aos-delay="450">
-            <div class="skill-name"><i class="fab fa-vuejs"></i> Vuejs</div>
-            <div class="skill-progress">
-              <span data-progress="75%">75%</span>
-            </div>
-          </div>
-          <div class="skill-box" data-aos="fade-in" data-aos-delay="500">
-            <div class="skill-name"><i class="fab fa-sass"></i> SASS</div>
-            <div class="skill-progress">
-              <span data-progress="60%">60%</span>
-            </div>
-          </div>
-          <div class="skill-box" data-aos="fade-in" data-aos-delay="550">
-            <div class="skill-name"><i class="fab fa-github"></i> GitHub</div>
-            <div class="skill-progress">
-              <span data-progress="60%">60%</span>
-            </div>
-          </div>
-          <div class="skill-box" data-aos="fade-in" data-aos-delay="600">
-            <div class="skill-name"><i class="fab fa-npm"></i> npm</div>
-            <div class="skill-progress">
-              <span data-progress="50%">50%</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="experince" id="experince">
+    </div>
+  </section>
+  <section>
+    <div class="skills" id="skills">
       <div class="container">
         <div class="section-heading">
-          <h1>Work Experince</h1>
-          <h6>Past and current jobs</h6>
+          <h1>Tech Skills</h1>
         </div>
-        <div class="timeline" data-aos="fade-down" data-aos-delay="50">
-          <ul>
-            <li
-              class="date"
-              data-date="Mar 20020 - Present"
-              data-aos="fade-right"
-              data-aos-delay="100"
-            >
-              <h1>Front-End Developer</h1>
-              <h2>Self-Employed</h2>
-            </li>
-            <li
-              class="date"
-              data-date="Jan 2020 - Feb 2020"
-              data-aos="fade-right"
-              data-aos-delay="200"
-            >
-              <h1>Senior Team-Lead</h1>
-              <h2><a href="https://www.seera.sa/" target="_blank">SEERA</a></h2>
-              <p>
-                The primary role was to support the "Project Manager" and manage
-                the "Team Leaders" to ensure that the company goals and targets
-                are being consistently applied and maintained. <br />
-                Perform management duties when the manager is absent or out of
-                office.
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+            Javascript <i class="fab fa-js"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
+            React <i class="fab fa-react"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+            npm <i class="fab fa-npm"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
+            nodejs <i class="fab fa-node"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+            Github <i class="fab fa-github"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
+            HTML
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+            CSS <i class="fab fa-css3"></i>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="projects" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Projects</h1>
+        </div>
+
+        <div class="project" id="project">
+          <div class="container">
+            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
+              <a href="https://zakyaly.github.io/smart-brain/" target="_blank"><img src="imgs/smart-brain-project.png" alt="" /></a>
+            </div>
+            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
+              <div class="project-heading">
+                <h1><a href="https://zakyaly.github.io/smart-brain/" target="_blank">Smart-Brain</a></h1>
+              </div>
+              <p class="project-text">
+                Smart-Brain is a simple app to recognize faces in photos
+              
+              <a href="https://zakyaly.github.io/smart-brain/" target="_blank">
+                  <i class="fas fa-link"></i> 
+                </a>
+                <a href="https://github.com/ZakyAly/smart-brain" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
               </p>
-            </li>
-            <li
-              class="date"
-              data-date="May 2018 - Dec 2019"
-              data-aos="fade-right"
-              data-aos-delay="200"
-            >
-              <h1>Online Flights Team-Lead</h1>
-              <h2><a href="https://www.seera.sa/" target="_blank">SEERA</a></h2>
-              <p>
-                Providing support and encouragement to team members, including
-                communicating team goals and identifying areas for new training
-                or skill checks.<br />Answering questions and oversee team
-                members.<br />
-                Also, Assist management with hiring processes and new team
-                member training.
+            </div>
+          </div>
+        </div>
+
+        <div class="project" id="project">
+          <div class="container">
+            <div class="project-img" data-aos="fade-left" data-aos-delay="300">
+              <a href="https://zakyaly.github.io/robo-friends//" target="_blank"><img src="imgs/robo-friends.png" alt="" /></a>
+            </div>
+            <div class="project-details" data-aos="fade-right" data-aos-delay="300">
+              <div class="project-heading">
+                <h1><a href="https://zakyaly.github.io/robo-friends/" target="_blank">Robo-Friends</a></h1>
+              </div>
+              <p class="project-text">
+                Filter your robo friend
+                
+                <a href="https://zakyaly.github.io/robo-friends/" target="_blank">
+                  <i class="fas fa-link"></i> 
+                </a>
+                <a href="https://github.com/ZakyAly/robo-friends" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project" id="project">
+          <div class="container">
+            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
+              <a href="https://zakyaly.github.io/x-o-game/" target="_blank"><img src="imgs/x-o-game.png" alt="" /></a>
+            </div>
+            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
+              <div class="project-heading">
+                <h1><a href="https://zakyaly.github.io/x-o-game/" target="_blank">X - O Game</a></h1>
+              </div>
+              <p class="project-text">
+                Try it and show your skills
+              
+              <a href="https://zakyaly.github.io/x-o-game/" target="_blank">
+                  <i class="fas fa-link"></i> 
+                </a>
+                <a href="https://github.com/ZakyAly/x-o-game" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
               </p>
+            </div>
+          </div>
+        </div>
+
+  </section>
+
+  <section class="experince" id="experince">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Work Experience</h1>
+      </div>
+      <div class="timeline" data-aos="fade-down" data-aos-delay="50">
+        <ul>
+          <li class="date" data-date="Feb 2021 - Present" data-aos="fade-right" data-aos-delay="200">
+            <h1>Front-end Developer</h1>
+            <h2><a href="https://energenious.eu/" target="_blank">Energenious - Part-time internship</a></h2>
+            <p>
+              Developing front-end application "user dashboard".
+            </p>
+          </li>
+          <li class="date" data-date="Feb 2020 - Present" data-aos="fade-right" data-aos-delay="100">
+            <h1>Front-End Developer</h1>
+            <h2><a>Self-Emplyed</a></h2>
+            <p>
+              Developing front-end applications using cutting-edge
+              technologies like ES6, React, React Hooks, and more.
+              <br />
+              Developing completely isolated and reusable components.
+            </p>
+          </li>
+          
+          <li class="date" data-date="Jan 2020 - Feb 2020" data-aos="fade-right" data-aos-delay="200">
+            <h1>Senior Team-Lead</h1>
+            <h2><a href="https://www.seera.sa/" target="_blank">SEERA - Full-time</a></h2>
+            <p>
+              Manage the "Team Leaders" to ensure that the company goals and
+              targets are being consistently applied and maintained.
+              <br />
+              Support the "Project Manager" and Perform management duties
+              Assist management with hiring processes.
+              <br />
+              Validating the agents' losses for the whole project.
+            </p>
+          </li>
+          <li class="date" data-date="May 2018 - Dec 2019" data-aos="fade-right" data-aos-delay="200">
+            <h1>Online Flights Team-Lead</h1>
+            <h2><a href="https://www.seera.sa/" target="_blank">SEERA - Full-time</a></h2>
+            <p>
+              Providing support and encouragement to team members, including
+              communicating team goals and identifying areas for new training
+              or skill checks.<br />Answering questions and oversee team
+              members.<br />
+              Also, Assist management with hiring processes and new team
+              member training.
+            </p>
+          </li>
+          <li class="date" data-date="Jan 2017 - Apr 2018" data-aos="fade-right" data-aos-delay="200">
+            <h1>Online Flights - Agent</h1>
+            <h2><a href="https://www.seera.sa/" target="_blank">SEERA - Full-time</a></h2>
+            <p>
+              Giving information and helping to solve customer problems.
+              Arranging services for customers, for example, Refund and
+              reissue flight bookings. <br />
+              Answering customer inquiries or passing them on to the
+              appropriate department.
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="education" id="education">
+    <div class="container">
+      <div class="section-heading">
+        <h1>Educational History</h1>
+      </div>
+      <div class="timeline" data-aos="fade-down" data-aos-delay="50">
+        <ul>
+          <li class="date" data-date="2020 - 2021" data-aos="fade-right" data-aos-delay="100">
+            <h1>The Complete Web Developer Program</h1>
+            <h2>
+              <a href="https://zerotomastery.io/" target="_blank">ZTM Academy</a>
+            </h2>
+            <p>Web Developer bootcamp.</p>
+          </li>
+          <li class="date" data-date="Oct 2006 - May 2010" data-aos="fade-right" data-aos-delay="200">
+            <h1>Bachelor Degree</h1>
+            <h2>
+              <a>Future Academy</a>
+            </h2>
+            <p>Bachelor degree in Tourism Management.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-details" data-aos="fade-in" data-aos-delay="300">
+        <div class="contact-heading">
+          <h1>Contact</h1>
+          <h6>Me</h6>
+        </div>
+        <p>
+          Reach to me for any inquiries or any questions.
+          <br />
+          Let's discuss and make an awesome experience.
+        </p>
+        <div class="social-media">
+          <ul class="nav-list">
+            <li>
+              <a href="tel:+4917632306048" target="_blank" class="icon-link">
+                <abbr title="Mobile"><i class="fas fa-mobile"></i></abbr>
+              </a>
             </li>
-            <li
-              class="date"
-              data-date="Jan 2017 - Apr 2018"
-              data-aos="fade-right"
-              data-aos-delay="200"
-            >
-              <h1>Online Flights - Agent</h1>
-              <h2><a href="https://www.seera.sa/" target="_blank">SEERA</a></h2>
-              <p>
-                Giving information and helping to solve customer problems.
-                Arranging services for customers, for example, Refund and
-                reissue flight bookings. <br />
-                Answering customer inquiries or passing them on to the
-                appropriate department.
-              </p>
+            <li>
+              <a href="mailto:zaky.aly88@gmail.com" target="" class="icon-link">
+                <abbr title="E-mail"><i class="fas fa-at"></i></abbr>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/zaky-aly-2a3896103/" target="_blank" class="icon-link">
+                <abbr title="Linkedin"><i class="fab fa-linkedin"></i></abbr>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/ZakyAly" target="_blank" class="icon-link">
+                <abbr title="Github"><i class="fab fa-github"></i></abbr>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/zaky3ly" target="_blank" class="icon-link">
+                <abbr title="facebook"><i class="fab fa-facebook"></i></abbr>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/_thekey1" target="_blank" class="icon-link">
+                <abbr title="twitter"><i class="fab fa-twitter"></i></abbr>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/the_key1/" target="_blank" class="icon-link">
+                <abbr title="instagram"><i class="fab fa-instagram"></i></abbr>
+              </a>
             </li>
           </ul>
         </div>
       </div>
-    </section>
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="contact-details" data-aos="fade-in" data-aos-delay="300">
-          <div class="contact-heading">
-            <h1>Contact</h1>
-            <h6>Me</h6>
-          </div>
-          <p>
-            Reach to me for any inquiries or any questions.
-            <br />
-            Let's discuss and make an awesome experience.
-          </p>
-          <div class="social-media">
-            <ul class="nav-list">
-              <li>
-                <a href="tel:+4917632306048" target="_blank" class="icon-link">
-                  <abbr title="Mobile"><i class="fas fa-mobile"></i></abbr>
-                </a>
-              </li>
-              <li>
-                <a href="mailto:zaky3ly@gmail.com" target="" class="icon-link">
-                  <abbr title="E-mail"><i class="fas fa-at"></i></abbr>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/zaky-aly-2a3896103/"
-                  target="_blank"
-                  class="icon-link"
-                >
-                  <abbr title="Linkedin"><i class="fab fa-linkedin"></i></abbr>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.facebook.com/zaky3ly"
-                  target="_blank"
-                  class="icon-link"
-                >
-                  <abbr title="facebook"><i class="fab fa-facebook"></i></abbr>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/Zaky_3ly"
-                  target="_blank"
-                  class="icon-link"
-                >
-                  <abbr title="twitter"><i class="fab fa-twitter"></i></abbr>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.instagram.com/the_key1/"
-                  target="_blank"
-                  class="icon-link"
-                >
-                  <abbr title="instagram"
-                    ><i class="fab fa-instagram"></i
-                  ></abbr>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <footer class="copyright">
-      <button onclick="topFunction()" id="myBtn" title="Go to top">
-        <i class="fas fa-chevron-up"></i>
-      </button>
-      <p>Copyright &copy;2020 Zaky Aly || All rights reserved.</p>
-    </footer>
-    <script
-      src="https://kit.fontawesome.com/36579f82ed.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <script src="/js/master.js"></script>
-  </body>
+    </div>
+  </section>
+  <footer class="copyright">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+    <p>Copyright &copy;2021 Zaky Aly || All rights reserved.</p>
+  </footer>
+  <script src="https://kit.fontawesome.com/36579f82ed.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="/js/script.js"></script>
+</body>
+
 </html>
