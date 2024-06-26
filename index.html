@@ -12,7 +12,7 @@
     href="https://fonts.googleapis.com/css2?family=Arizonia&family=Sedgwick+Ave&family=Sedgwick+Ave+Display&display=swap"
     rel="stylesheet" />
   <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -34,6 +34,9 @@
           <a href="#skills" class="nav-link">Skills</a>
         </li>
         <li>
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+        <li>
           <a href="#experince" class="nav-link">Experince</a>
         </li>
         <li>
@@ -47,13 +50,13 @@
     <div class="landing-text">
       <h1>Hi,</h1>
       <h1>I'm Zaky</h1>
-      <h6>Front-End Developer / Freelancer</h6>
+      <h6>Front-End Developer</h6>
     </div>
   </header>
   <section class="about" id="about">
     <div class="container">
       <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-        <img src="profile01.jpg" alt="" />
+        <img src="./imgs/profile01.jpg" alt="">
       </div>
       <div class="about-details" data-aos="fade-left" data-aos-delay="300">
         <div class="about-heading">
@@ -61,22 +64,22 @@
           <h6>Me</h6>
         </div>
         <p class="about-text">
-          After 9 years of full-time work experience in the Tourism industry,
-          <br />
-          <br />
-          I developed myself by shifting to a new career which I was always
-          passionate about.
-          <br />
-          <br />
-          And after relocating to
-          <i class="fas fa-map-marker-alt"></i> Berlin, Germany I focused on
-          learning frontend development more deeply to start my professional
-          tech career.
-          <br />
-          I currently work mainly with <span>Javascript</span> in the
-          <span>React</span> framework. Besides that, I’m a geek with details
-          and a problem solver. In my free time, I enjoy playing football,
-          cycling and reading.
+          Welcome to my website!
+          <br>
+          <br>
+          I’m Zaky Aly, a passionate front-end developer specializing in HTML, CSS, JavaScript,
+          Typescript, and React. With a keen eye for design, I create responsive interfaces using Tailwind CSS and
+          seamlessly integrate APIs.
+          <br>
+          My proficiency extends to version control with Git, where I implement efficient CI/CD pipelines for seamless
+          deployment.
+          <br>
+          I thrive on solving complex problems and pay meticulous attention to detail.
+          <br>
+          My commitment to
+          continuous learning drives me to deliver high-quality, user-friendly web applications.
+          <br>
+          Feel free to explore my work and connect with me!
         </p>
       </div>
     </div>
@@ -88,8 +91,34 @@
           <h1>Tech Skills</h1>
         </div>
         <div class="skill-box">
+          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
+            HTML5
+            <i class="fab fa-html5"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+            CSS <i class="fab fa-css3"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
+            Tailwind 
+          </div>
+        </div>
+        <div class="skill-box">
           <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
             Javascript <i class="fab fa-js"></i>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
+            ES6 
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+            Typescript 
           </div>
         </div>
         <div class="skill-box">
@@ -99,36 +128,32 @@
         </div>
         <div class="skill-box">
           <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+            APIs 
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
             npm <i class="fab fa-npm"></i>
           </div>
         </div>
         <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
+          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
             nodejs <i class="fab fa-node"></i>
           </div>
         </div>
         <div class="skill-box">
-          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
             Github <i class="fab fa-github"></i>
           </div>
         </div>
         <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
-            HTML
-            <i class="fab fa-html5"></i>
-          </div>
-        </div>
-        <div class="skill-box">
           <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
-            CSS <i class="fab fa-css3"></i>
+            CI/CD
           </div>
-        </div>
         </div>
       </div>
     </div>
-    </div>
   </section>
-
   <section>
     <div class="projects" id="projects">
       <div class="container">
@@ -136,21 +161,90 @@
           <h1>Projects</h1>
         </div>
 
-        <div class="project" id="project">
+        <div class="project">
           <div class="container">
             <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://zakyaly.github.io/smart-brain/" target="_blank"><img src="smart-brain-project.png" alt="" /></a>
+              <a href="https://d-dashboard-app.netlify.app/" target="_blank"><img src="./imgs/dashboard-app.png"
+                  alt="dashboard-app" /></a>
+            </div>
+            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
+              <div class="project-heading">
+                <h1><a href="https://d-dashboard-app.netlify.app/" target="_blank">Dashboard App</a></h1>
+              </div>
+              <p class="project-text">
+                Advanced application that displays a Dashboard, Pages, Apps, and Charts.
+                <a href="https://github.com/ZakyAly/dashboard-app" target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="container">
+            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
+              <a href="https://bitcointracker-app.netlify.app/"
+                target="_blank"><img src="./imgs/bitcoin-tracker.png"
+                  alt="bitcoin-tracker" /></a>
+            </div>
+            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
+              <div class="project-heading">
+                <h1>
+                  <a href="https://bitcointracker-app.netlify.app/"
+                    target="_blank">
+                    Bitcoin Tracker App
+                  </a>
+                </h1>
+              </div>
+              <p class="project-text">
+                Bitcoin Tracker, gives you the latest numbers with the performance
+                history in different currencies.
+                <a href="https://github.com/ZakyAly/bitcoin-tracker-app"
+                  target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="container">
+            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
+              <a href="https://linkedin-mock-page.netlify.app/"
+                target="_blank"><img src="./imgs/linkedin-mock-page.png"
+                  alt="linkedin-mock-page" /></a>
+            </div>
+            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
+              <div class="project-heading">
+                <h1>
+                  <a href="https://linkedin-mock-page.netlify.app/"
+                    target="_blank">
+                    Linkedin Mock Page
+                  </a>
+                </h1>
+              </div>
+              <p class="project-text">
+                Mock page UI of Linkedin.
+                <a href="https://github.com/ZakyAly/linkedin-product-page-mock"
+                  target="_blank">
+                  <i class="fab fa-github"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="container">
+            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
+              <a href="https://zakyaly.github.io/smart-brain/" target="_blank"><img src="./imgs/smart-brain-project.png"
+                  alt="face-recognition" /></a>
             </div>
             <div class="project-details" data-aos="fade-left" data-aos-delay="300">
               <div class="project-heading">
                 <h1><a href="https://zakyaly.github.io/smart-brain/" target="_blank">Smart-Brain</a></h1>
               </div>
               <p class="project-text">
-                Smart-Brain is a simple app to recognize faces in photos
-              
-              <a href="https://zakyaly.github.io/smart-brain/" target="_blank">
-                  <i class="fas fa-link"></i> 
-                </a>
+                Face Recognition App.
                 <a href="https://github.com/ZakyAly/smart-brain" target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
@@ -158,22 +252,18 @@
             </div>
           </div>
         </div>
-
-        <div class="project" id="project">
+        <div class="project">
           <div class="container">
             <div class="project-img" data-aos="fade-left" data-aos-delay="300">
-              <a href="https://zakyaly.github.io/robo-friends//" target="_blank"><img src="robo-friends.png" alt="" /></a>
+              <a href="https://zakyaly.github.io/robo-friends//" target="_blank"><img src="./imgs/robo-friends.png"
+                  alt="filter-app" /></a>
             </div>
             <div class="project-details" data-aos="fade-right" data-aos-delay="300">
               <div class="project-heading">
                 <h1><a href="https://zakyaly.github.io/robo-friends/" target="_blank">Robo-Friends</a></h1>
               </div>
               <p class="project-text">
-                Filter your robo friend
-                
-                <a href="https://zakyaly.github.io/robo-friends/" target="_blank">
-                  <i class="fas fa-link"></i> 
-                </a>
+                Filter App.
                 <a href="https://github.com/ZakyAly/robo-friends" target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
@@ -181,21 +271,17 @@
           </div>
         </div>
 
-        <div class="project" id="project">
+        <div class="project">
           <div class="container">
             <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://zakyaly.github.io/x-o-game/" target="_blank"><img src="/x-o-game.png" alt="" /></a>
+              <a href="https://zakyaly.github.io/x-o-game/" target="_blank"><img src="./imgs/x-o-game.png" alt="" /></a>
             </div>
             <div class="project-details" data-aos="fade-left" data-aos-delay="300">
               <div class="project-heading">
                 <h1><a href="https://zakyaly.github.io/x-o-game/" target="_blank">X - O Game</a></h1>
               </div>
               <p class="project-text">
-                Try it and show your skills
-              
-              <a href="https://zakyaly.github.io/x-o-game/" target="_blank">
-                  <i class="fas fa-link"></i> 
-                </a>
+                Test your gaming skills.
                 <a href="https://github.com/ZakyAly/x-o-game" target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
@@ -203,7 +289,6 @@
             </div>
           </div>
         </div>
-
   </section>
 
   <section class="experince" id="experince">
@@ -213,11 +298,11 @@
       </div>
       <div class="timeline" data-aos="fade-down" data-aos-delay="50">
         <ul>
-          <li class="date" data-date="Feb 2021 - Present" data-aos="fade-right" data-aos-delay="200">
+          <li class="date" data-date="Apr 2021 - May 2021" data-aos="fade-right" data-aos-delay="200">
             <h1>Front-end Developer</h1>
-            <h2><a href="https://energenious.eu/" target="_blank">Energenious - Part-time internship</a></h2>
+            <h2><a href="https://energenious.eu/" target="_blank">Energenious - Internship</a></h2>
             <p>
-              Developing front-end application "user dashboard".
+              Implementing the company’s UI design using React, React Hooks, and Redux.
             </p>
           </li>
           <li class="date" data-date="Feb 2020 - Present" data-aos="fade-right" data-aos-delay="100">
@@ -230,7 +315,7 @@
               Developing completely isolated and reusable components.
             </p>
           </li>
-          
+
           <li class="date" data-date="Jan 2020 - Feb 2020" data-aos="fade-right" data-aos-delay="200">
             <h1>Senior Team-Lead</h1>
             <h2><a href="https://www.seera.sa/" target="_blank">SEERA - Full-time</a></h2>
@@ -319,7 +404,7 @@
             </li>
             <li>
               <a href="mailto:zaky.aly88@gmail.com" target="" class="icon-link">
-                <abbr title="E-mail"><i class="fas fa-at"></i></abbr>
+                <abbr title="E-mail"><i class="fas fa-square-envelope"></i></abbr>
               </a>
             </li>
             <li>
@@ -332,39 +417,25 @@
                 <abbr title="Github"><i class="fab fa-github"></i></abbr>
               </a>
             </li>
-            <li>
-              <a href="https://www.facebook.com/zaky3ly" target="_blank" class="icon-link">
-                <abbr title="facebook"><i class="fab fa-facebook"></i></abbr>
-              </a>
-            </li>
-            <li>
-              <a href="https://twitter.com/_thekey1" target="_blank" class="icon-link">
-                <abbr title="twitter"><i class="fab fa-twitter"></i></abbr>
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/the_key1/" target="_blank" class="icon-link">
-                <abbr title="instagram"><i class="fab fa-instagram"></i></abbr>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
     </div>
   </section>
+
   <footer class="copyright">
     <button onclick="topFunction()" id="myBtn" title="Go to top">
       <i class="fas fa-chevron-up"></i>
     </button>
-    <p>Copyright &copy;2021 Zaky Aly || All rights reserved.</p>
+    <p> &copy;2024 Zaky Aly </p>
   </footer>
-  <script src="https://kit.fontawesome.com/36579f82ed.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/cf8f1ac770.js" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
-  <script src="/script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
