@@ -1,605 +1,1002 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zaky Aly</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arizonia&family=Sedgwick+Ave&family=Sedgwick+Ave+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&family=Rubik:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:wght@100..700&family=Rubik:wght@800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Zaky Aly</title>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap" rel="stylesheet" />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Arizonia&family=Sedgwick+Ave&family=Sedgwick+Ave+Display&display=swap"
-    rel="stylesheet" />
-  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header>
-    <div class="menu-toggler" id="menu-toggler">
-      <div class="bar half start"></div>
-      <div class="bar"></div>
-      <div class="bar half end"></div>
-    </div>
-    <nav class="top-nav" id="top-nav">
-      <ul class="nav-list">
-        <li>
-          <a href="index.html" class="nav-link">Home</a>
-        </li>
-        <li>
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li>
-          <a href="#skills" class="nav-link">Skills</a>
-        </li>
-        <li>
-          <a href="#projects" class="nav-link">Projects</a>
-        </li>
-        <li>
-          <a href="#courses" class="nav-link">Courses</a>
-        </li>
-        
-        <li>
-          <a href="#experince" class="nav-link">Experince</a>
-        </li>
-        <li>
-          <a href="#education" class="nav-link">Education</a>
-        </li>
-        <li>
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="landing-text">
-      <h1>Hi,</h1>
-      <h1>I'm Zaky</h1>
-      <h6>Front-End Developer</h6>
-    </div>
-  </header>
-  <section class="about" id="about">
-    <div class="container">
-      <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
-        <img src="./imgs/profile.png" alt="">
+  <body>
+    <header>
+      <div class="menu-toggler" id="menu-toggler">
+        <div class="bar half start"></div>
+        <div class="bar"></div>
+        <div class="bar half end"></div>
       </div>
-      <div class="about-details" data-aos="fade-left" data-aos-delay="300">
-        <div class="about-heading">
-          <h1>About</h1>
-          <h6>Me</h6>
+      <nav class="top-nav" id="top-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li>
+            <a href="#courses" class="nav-link">Courses</a>
+          </li>
+          <li>
+            <a href="#experince" class="nav-link">Experince</a>
+          </li>
+          <li>
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-info">
+            <p class="hero-info-p1">Hello, I'm</p>
+            <h1 class="name">Zaky Aly</h1>
+            <p class="hero-info-p2">Front-End Developer</p>
+            <div class="btn-container">
+              <a href="./imgs/assets/zaky-aly-cv.pdf" download>
+                <button class="btn cv-btn">Download CV</button>
+              </a>
+              <a href="#contact">
+                <button class="btn contact-btn">Contact Info</button>
+              </a>
+            </div>
+            <div class="hero-icon-container">
+              <a
+                href="https://github.com/ZakyAly"
+                target="_blank"
+                class="hero-icon"
+              >
+                <img src="./assets/github-light.svg" alt="" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/zakyaly/"
+                target="_blank"
+                class="hero-icon"
+              >
+                <img src="./assets/linkedin-light.svg" alt="linkedin" />
+              </a>
+            </div>
+          </div>
         </div>
-        <p class="about-text">
-          Welcome to my website!
-          <br>
-          <br>
-          I’m Zaky Aly, a passionate front-end developer specializing in HTML, CSS, JavaScript, Typescript, and React. With a keen eye for design, I create responsive interfaces using Tailwind CSS and seamlessly integrate APIs.
-          <br>
-          <br>
-          My passion for building projects from scratch matches my dedication to maintaining and improving existing code bases and keeping them in good shape.
-          <br>
-          <br>
-          My proficiency extends to version control with Git, where I implement efficient CI/CD pipelines for seamless deployment.
-          <br>
-          <br>
-          I thrive on solving complex problems and pay meticulous attention to detail. 
-          <br>
-          <br>
-          My commitment to continuous learning drives me to deliver high-quality, user-friendly web applications.
-          <br>
-          Feel free to explore my work and connect with me!
-        </p>
+      </section>
+    </header>
+
+    <section class="about" id="about">
+      <div class="container">
+        <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+          <img src="./imgs/profile.png" alt="" />
+        </div>
+        <div class="about-details" data-aos="fade-left" data-aos-delay="300">
+          <div class="about-heading">
+            <h1>About</h1>
+            <h6>Me</h6>
+          </div>
+          <p class="about-text">
+            Welcome to my website!
+            <br />
+            <br />
+            I’m Zaky, a passionate front-end developer specializing in HTML,
+            CSS, JavaScript, Typescript, and React. With a keen eye for design,
+            I create responsive interfaces using Tailwind CSS and seamlessly
+            integrate APIs.
+            <br />
+            <br />
+            My passion for building projects from scratch matches my dedication
+            to maintaining and improving existing code bases and keeping them in
+            good shape.
+            <br />
+            <br />
+            My proficiency extends to version control with Git, where I
+            implement efficient CI/CD pipelines for seamless deployment.
+            <br />
+            <br />
+            I thrive on solving complex problems and pay meticulous attention to
+            detail.
+            <br />
+            <br />
+            My commitment to continuous learning drives me to deliver
+            high-quality, user-friendly web applications.
+            <br />
+            Feel free to explore my work and connect with me!
+          </p>
+        </div>
       </div>
-    </div>
-  </section>
-  <section>
-    <div class="skills" id="skills">
+    </section>
+    <section>
+      <div class="skills" id="skills">
+        <div class="container">
+          <div class="section-heading">
+            <p>Explore My</p>
+            <h1>Tech Skills</h1>
+          </div>
+          <div class="skills-container">
+            <div class="skill-box">
+              <div
+                class="skill-name"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                HTML5
+                <i class="fab fa-html5"></i>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+                CSS <i class="fab fa-css3"></i>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div
+                class="skill-name"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                Tailwind CSS
+              </div>
+            </div>
+            <div class="skill-box">
+              <div
+                class="skill-name"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                Javascript <i class="fab fa-js"></i>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+                DOM
+              </div>
+            </div>
+            <div class="skill-box">
+              <div
+                class="skill-name"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                ES6
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+                Typescript
+              </div>
+            </div>
+            <div class="skill-box">
+              <div
+                class="skill-name"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                React <i class="fab fa-react"></i>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+                APIs
+              </div>
+            </div>
+            <div class="skill-box">
+              <div
+                class="skill-name"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                npm <i class="fab fa-npm"></i>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+                Nodejs <i class="fab fa-node"></i>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div
+                class="skill-name"
+                data-aos="fade-right"
+                data-aos-delay="400"
+              >
+                GitHub <i class="fab fa-github"></i>
+              </div>
+            </div>
+            <div class="skill-box">
+              <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
+                CI/CD
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
       <div class="container">
         <div class="section-heading">
-          <h1>Tech Skills</h1>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
-            HTML5
-            <i class="fab fa-html5"></i>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
-            CSS <i class="fab fa-css3"></i>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
-            Tailwind CSS
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
-            Javascript <i class="fab fa-js"></i>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
-            DOM
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
-            ES6 
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
-            Typescript 
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
-            React <i class="fab fa-react"></i>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
-            APIs 
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
-            npm <i class="fab fa-npm"></i>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
-            Nodejs <i class="fab fa-node"></i>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-right" data-aos-delay="400">
-            GitHub <i class="fab fa-github"></i>
-          </div>
-        </div>
-        <div class="skill-box">
-          <div class="skill-name" data-aos="fade-left" data-aos-delay="400">
-            CI/CD
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <div class="projects" id="projects">
-      <div class="container">
-        <div class="section-heading">
+          <p>Browse My Recent</p>
           <h1>Projects</h1>
         </div>
-        <div class="project">
-          <div class="container">
-            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://cars-showroom-app.vercel.app/"
-                target="_blank"><img src="./imgs/car-show-room.png"
-                alt="cars-show-room" />
+        <div class="projects-container">
+          <div class="project-box">
+            <div class="project-img-container">
+              <img
+                class="project-img"
+                src="./imgs/cars-showroom.png"
+                alt="cars showroom project img"
+              />
+            </div>
+            <h2 class="project-heading">Cars Showroom</h2>
+            <p class="project-details">
+              Advanced application gives you all the details about the car model
+              and rental prices, using Typescript and Tailwind CSS.
+            </p>
+            <!--  -->
+            <!--  -->
+            <!-- Update text to be maximum two lines -->
+            <!--  -->
+            <!--  -->
+            <div class="project-btn-container">
+              <a
+                href="https://github.com/ZakyAly/cars-showroom-app"
+                target="_blank"
+              >
+                <button class="project-code">Github</button>
+              </a>
+              <a href="https://cars-showroom-app.vercel.app/" target="_blank">
+                <button class="project-live">Live Demo</button>
               </a>
             </div>
-            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
-              <div class="project-heading">
-                <h1>
-                  <a href="https://cars-showroom-app.vercel.app/"
-                    target="_blank">
-                    Cars-Show-Room
+          </div>
+          <div class="project-box">
+            <div class="project-img-container">
+              <img
+                class="project-img"
+                src="./imgs/linkedin-mock-page.png"
+                alt="Linkedin mock page project img"
+              />
+            </div>
+            <h2 class="project-heading">Product Mock Page</h2>
+            <p class="project-details">
+              Implementation of UI design for LinkedIn product mock page.
+            </p>
+            <div class="project-btn-container">
+              <button class="project-code">
+                <a
+                  href="https://github.com/ZakyAly/linkedin-product-page-mock"
+                  target="_blank"
+                  >Github</a
+                >
+              </button>
+              <button class="project-live">
+                <a href="https://product-mock-page.netlify.app/" target="_blank"
+                  >Live Demo</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="projects" id="projects">
+        <div class="container">
+          <div class="section-heading">
+            <h1>Projects</h1>
+          </div>
+          <div class="project">
+            <div class="container">
+              <div
+                class="project-img"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <a href="https://cars-showroom-app.vercel.app/" target="_blank"
+                  ><img src="./imgs/car-show-room.png" alt="cars-show-room" />
+                </a>
+              </div>
+              <div
+                class="project-details"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div class="project-heading">
+                  <h1>
+                    <a
+                      href="https://cars-showroom-app.vercel.app/"
+                      target="_blank"
+                    >
+                      Cars-Show-Room
+                    </a>
+                  </h1>
+                </div>
+                <p class="project-text">
+                  Advanced application gives you all the details about the car
+                  model and rental prices, using Typescript and Tailwind CSS.
+                  <a
+                    href="https://github.com/ZakyAly/cars-showroom-app"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
                   </a>
-                </h1>
+                </p>
               </div>
-              <p class="project-text">
-                Advanced application gives you all the details about the car model and rental prices, using Typescript and Tailwind CSS.
-                <a href="https://github.com/ZakyAly/cars-showroom-app"
-                  target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-              </p>
             </div>
           </div>
-        </div>
-        <div class="project">
-          <div class="container">
-            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://spree-cafe.netlify.app/"
-                target="_blank"><img src="./imgs/spree-cafe.png"
-                  alt="Spree Café" /></a>
-            </div>
-            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
-              <div class="project-heading">
-                <h1>
-                  <a href="https://spree-cafe.netlify.app/"
-                    target="_blank">
-                    Spree Café
+          <div class="project">
+            <div class="container">
+              <div
+                class="project-img"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <a href="https://spree-cafe.netlify.app/" target="_blank"
+                  ><img src="./imgs/spree-cafe.png" alt="Spree Café"
+                /></a>
+              </div>
+              <div
+                class="project-details"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div class="project-heading">
+                  <h1>
+                    <a href="https://spree-cafe.netlify.app/" target="_blank">
+                      Spree Café
+                    </a>
+                  </h1>
+                </div>
+                <p class="project-text">
+                  This is a project displaying the UI of a Cafe mock page.
+                  <a
+                    href="https://github.com/ZakyAly/spree-cafe"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
                   </a>
-                </h1>
+                </p>
               </div>
-              <p class="project-text">
-                This is a project displaying the UI of a Cafe mock page.
-                <a href="https://github.com/ZakyAly/spree-cafe"
-                  target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-              </p>
             </div>
           </div>
-        </div>
-
-        <div class="project">
-          <div class="container">
-            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://product-mock-page.netlify.app/"
-                target="_blank"><img src="./imgs/linkedin-mock-page.png"
-                  alt="linkedin-mock-page" /></a>
-            </div>
-            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
-              <div class="project-heading">
-                <h1>
-                  <a href="https://product-mock-page.netlify.app/"
-                    target="_blank">
-                    Product Mock Page
+          <div class="project">
+            <div class="container">
+              <div
+                class="project-img"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <a href="https://product-mock-page.netlify.app/" target="_blank"
+                  ><img
+                    src="./imgs/linkedin-mock-page.png"
+                    alt="linkedin-mock-page"
+                /></a>
+              </div>
+              <div
+                class="project-details"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div class="project-heading">
+                  <h1>
+                    <a
+                      href="https://product-mock-page.netlify.app/"
+                      target="_blank"
+                    >
+                      Product Mock Page
+                    </a>
+                  </h1>
+                </div>
+                <p class="project-text">
+                  Implementation of UI design for LinkedIn product mock page.
+                  <a
+                    href="https://github.com/ZakyAly/linkedin-product-page-mock"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
                   </a>
-                </h1>
+                </p>
               </div>
-              <p class="project-text">
-                Implementation of UI design for LinkedIn product mock page.
-                <a href="https://github.com/ZakyAly/linkedin-product-page-mock"
-                  target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-              </p>
             </div>
           </div>
-        </div>
-        <div class="project">
-          <div class="container">
-            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://d-dashboard-app.netlify.app/" target="_blank"><img src="./imgs/dashboard-app.png"
-                  alt="dashboard-app" /></a>
-            </div>
-            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
-              <div class="project-heading">
-                <h1><a href="https://d-dashboard-app.netlify.app/" target="_blank">Dashboard App</a></h1>
+          <div class="project">
+            <div class="container">
+              <div
+                class="project-img"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <a href="https://d-dashboard-app.netlify.app/" target="_blank"
+                  ><img src="./imgs/dashboard-app.png" alt="dashboard-app"
+                /></a>
               </div>
-              <p class="project-text">
-                Advanced application that displays a Dashboard, Pages, Apps, and Charts.
-                <a href="https://github.com/ZakyAly/dashboard-app" target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="container">
-            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://bitcointracker-app.netlify.app/"
-                target="_blank"><img src="./imgs/bitcoin-tracker.png"
-                  alt="bitcoin-tracker" /></a>
-            </div>
-            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
-              <div class="project-heading">
-                <h1>
-                  <a href="https://bitcointracker-app.netlify.app/"
-                    target="_blank">
-                    Bitcoin Tracker App
+              <div
+                class="project-details"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div class="project-heading">
+                  <h1>
+                    <a
+                      href="https://d-dashboard-app.netlify.app/"
+                      target="_blank"
+                      >Dashboard App</a
+                    >
+                  </h1>
+                </div>
+                <p class="project-text">
+                  Advanced application that displays a Dashboard, Pages, Apps,
+                  and Charts.
+                  <a
+                    href="https://github.com/ZakyAly/dashboard-app"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
                   </a>
-                </h1>
+                </p>
               </div>
-              <p class="project-text">
-                Bitcoin Tracker, gives you the latest numbers with the performance
-                history in different currencies.
-                <a href="https://github.com/ZakyAly/bitcoin-tracker-app"
-                  target="_blank">
-                  <i class="fab fa-github"></i>
+            </div>
+          </div>
+          <div class="project">
+            <div class="container">
+              <div
+                class="project-img"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <a
+                  href="https://bitcointracker-app.netlify.app/"
+                  target="_blank"
+                  ><img src="./imgs/bitcoin-tracker.png" alt="bitcoin-tracker"
+                /></a>
+              </div>
+              <div
+                class="project-details"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div class="project-heading">
+                  <h1>
+                    <a
+                      href="https://bitcointracker-app.netlify.app/"
+                      target="_blank"
+                    >
+                      Bitcoin Tracker App
+                    </a>
+                  </h1>
+                </div>
+                <p class="project-text">
+                  Bitcoin Tracker, gives you the latest numbers with the
+                  performance history in different currencies.
+                  <a
+                    href="https://github.com/ZakyAly/bitcoin-tracker-app"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="container">
+              <div
+                class="project-img"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <a href="https://zakyaly.github.io/smart-brain/" target="_blank"
+                  ><img
+                    src="./imgs/smart-brain-project.png"
+                    alt="face-recognition"
+                /></a>
+              </div>
+              <div
+                class="project-details"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div class="project-heading">
+                  <h1>
+                    <a
+                      href="https://zakyaly.github.io/smart-brain/"
+                      target="_blank"
+                      >Smart-Brain</a
+                    >
+                  </h1>
+                </div>
+                <p class="project-text">
+                  Face Recognition App.
+                  <a
+                    href="https://github.com/ZakyAly/smart-brain"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="container">
+              <div
+                class="project-img"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <a
+                  href="https://zakyaly.github.io/robo-friends//"
+                  target="_blank"
+                  ><img src="./imgs/robo-friends.png" alt="filter-app"
+                /></a>
+              </div>
+              <div
+                class="project-details"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <div class="project-heading">
+                  <h1>
+                    <a
+                      href="https://zakyaly.github.io/robo-friends/"
+                      target="_blank"
+                      >Robo-Friends</a
+                    >
+                  </h1>
+                </div>
+                <p class="project-text">
+                  Filter App.
+                  <a
+                    href="https://github.com/ZakyAly/robo-friends"
+                    target="_blank"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="project">
+            <div class="container">
+              <div
+                class="project-img"
+                data-aos="fade-right"
+                data-aos-delay="300"
+              >
+                <a href="https://zakyaly.github.io/x-o-game/" target="_blank"
+                  ><img src="./imgs/x-o-game.png" alt=""
+                /></a>
+              </div>
+              <div
+                class="project-details"
+                data-aos="fade-left"
+                data-aos-delay="300"
+              >
+                <div class="project-heading">
+                  <h1>
+                    <a
+                      href="https://zakyaly.github.io/x-o-game/"
+                      target="_blank"
+                      >X - O Game</a
+                    >
+                  </h1>
+                </div>
+                <p class="project-text">
+                  Test your gaming skills.
+                  <a href="https://github.com/ZakyAly/x-o-game" target="_blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <section class="courses" id="courses">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Courses</h1>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="50">
+          <ul>
+            <li
+              class="date"
+              data-date="May 2024 - Present"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>Web Development Bootcamp</h1>
+              <h2>
+                <a
+                  href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+                  target="_blank"
+                >
+                  Udemy
                 </a>
+              </h2>
+              <p>
+                62-hours web development bootcamp that covered the most
+                up-to-date and in- demand tech skills, such as HTML5, CSS3
+                Flexbox, Javascript, ES6, DOM Manipulation, React.js, React
+                Hooks, APIs and Databases.
               </p>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="container">
-            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://zakyaly.github.io/smart-brain/" target="_blank"><img src="./imgs/smart-brain-project.png"
-                  alt="face-recognition" /></a>
-            </div>
-            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
-              <div class="project-heading">
-                <h1><a href="https://zakyaly.github.io/smart-brain/" target="_blank">Smart-Brain</a></h1>
-              </div>
-              <p class="project-text">
-                Face Recognition App.
-                <a href="https://github.com/ZakyAly/smart-brain" target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <div class="container">
-            <div class="project-img" data-aos="fade-left" data-aos-delay="300">
-              <a href="https://zakyaly.github.io/robo-friends//" target="_blank"><img src="./imgs/robo-friends.png"
-                  alt="filter-app" /></a>
-            </div>
-            <div class="project-details" data-aos="fade-right" data-aos-delay="300">
-              <div class="project-heading">
-                <h1><a href="https://zakyaly.github.io/robo-friends/" target="_blank">Robo-Friends</a></h1>
-              </div>
-              <p class="project-text">
-                Filter App.
-                <a href="https://github.com/ZakyAly/robo-friends" target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project">
-          <div class="container">
-            <div class="project-img" data-aos="fade-right" data-aos-delay="300">
-              <a href="https://zakyaly.github.io/x-o-game/" target="_blank"><img src="./imgs/x-o-game.png" alt="" /></a>
-            </div>
-            <div class="project-details" data-aos="fade-left" data-aos-delay="300">
-              <div class="project-heading">
-                <h1><a href="https://zakyaly.github.io/x-o-game/" target="_blank">X - O Game</a></h1>
-              </div>
-              <p class="project-text">
-                Test your gaming skills.
-                <a href="https://github.com/ZakyAly/x-o-game" target="_blank">
-                  <i class="fab fa-github"></i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-  </section>
-
-  <section class="courses" id="courses">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Courses</h1>
-      </div>
-      <div class="timeline" data-aos="fade-down" data-aos-delay="50">
-        <ul>
-          <li class="date" data-date="May 2024 - Present" data-aos="fade-right" data-aos-delay="200">
-            <h1>Web Development Bootcamp</h1>
-            <h2>
-              <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">
-                Udemy
-              </a>
-            </h2>
-            <p>
-              62-hours web development bootcamp that covered the most up-to-date and in- demand tech skills, such as HTML 5 - CSS 3 - Flexbox - Javascript ES6 - DOM Manipulation - React.js - React Hooks - APIs - Databases.
-            </p>
-          </li>
-          <li class="date" data-date="Sep 2023 - Mar 2024" data-aos="fade-right" data-aos-delay="100">
-            <h1>Career Mentorship For Frontend Developer</h1>
-            <h2>
-              <a href="https://mentorcruise.com/" target="_blank">
-              mentorcruise.com
-              </a>
-            </h2>
-            <p>
-              Hands-on training with highly experienced frontend developer. The training enhanced my technical skills and enabled me to:
-              <br>
-              - Translate ideas into functional pages and software systems.
-              <br>
-              - Use HTML, CSS, Javascript, Typescript, and React to build real projects.
-              <br>
-              - Apply best practices of clean code in my own projects.
-            </p>
-          </li>
-
-          <li class="date" data-date="Jan 2021" data-aos="fade-right" data-aos-delay="200">
-            <h1>The Complete Web Developer</h1>
-            <h2><a href="https://zerotomastery.io/" target="_blank">ZTM Academy</a></h2>
-            <p>
-              37-hours web development bootcamp that covered the most up-to-date and in- demand tech skills, such as: HTML 5 - CSS 3 - Javascript - React.js - Restful APIs NPM - Node.js - Git and Github -Production and Deployment
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="experince" id="experince">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Work Experience</h1>
-      </div>
-      <div class="timeline" data-aos="fade-down" data-aos-delay="50">
-        <ul>
-          <li class="date" data-date="June 2022 - Present" data-aos="fade-right" data-aos-delay="200">
-            <h1>Front-end Developer</h1>
-            <p>
-              - Working on different projects, implementing web applications and landing pages from concept through deployment. Check out My Projects Section.
-              <br>
-              - Developing front-end applications utilizing cutting-edge technologies like ES6, React, React Hooks, and more.
-              <br>
-              - Developing completely isolated and reusable components.
-            </p>
-          </li>
-          <li class="date" data-date="Feb - May 2021" data-aos="fade-right" data-aos-delay="100">
-            <h1>Frontend Developer - Intern</h1>
-            <h2><a>Energenious GmbH - Berlin, Germany</a></h2>
-            <p>
-              A journey of three month fueled by code and curiosity. I honed my skills in implementing UI designs using React, React Hooks, and Redux.
-            </p>
-          </li>
-
-          <li class="date" data-date="Mar 2020 - Mar 2021" data-aos="fade-right" data-aos-delay="200">
-            <h1>Time Off: A Grand Career Shift</h1>
-            <p>
-              I intentionally took time off to relocate to Berlin, where I could wholeheartedly pursue my passion as a frontend developer. Simultaneously, I embraced the deep joy and responsibility of being a new dad to my little son.
-            </p>
-          </li>
-          <li class="date" data-date="Dec 2019 - Feb 2020" data-aos="fade-right" data-aos-delay="200">
-            <h1>Senior Team Leader - Flight Customer Support</h1>
-            <h2><a href="https://www.seera.sa/" target="_blank">SEERA Group - Cairo, Egypt</a></h2>
-            <p>
-              - Oversaw a large-scale project involving 90 customer support agents, led by 6 group leaders.
-              <br>
-              - Collaborated with the Customer Support Manager to develop strategic action plans for the Flight Customer Support team.
-              <br>
-              - Coordinated cross-departmentally to achieve team targets and enhance overall performance.
-              <br>
-              - Monitored and validated account loss sheets to ensure accuracy and financial integrity.
-            </p>
-          </li>
-          <li class="date" data-date="May 2018 - Dec 2019" data-aos="fade-right" data-aos-delay="200">
-            <h1>Team Leader - Flight Customer Support</h1>
-            <h2><a href="https://www.seera.sa/" target="_blank">SEERA Group - Cairo, Egypt</a></h2>
-            <p>
-              - Achievements: 4-Times Winner of the Top Achiever Award for maintaining exceptional QA performance.
-              <br>
-              - Successfully built and led a team of 15 agents, aligning with company objectives for customer support.
-              <br>
-              - Mentored newly recruited agents, providing guidance on Amadeus, Zendesk, Freshdesk, and call interaction systems.
-              <br>
-              - Trained the team to excel on the company’s Quality Scoring Sheet for customer support agents.
-              <br>
-              - Monitored monthly financial dues for the team in addition to managing their KPIs and APR reports.
-            </p>
-          </li>
-          <li class="date" data-date="Jan 2017 - May 2018" data-aos="fade-right" data-aos-delay="200">
-            <h1>Customer Support Agent</h1>
-            <h2><a href="https://www.seera.sa/" target="_blank">SEERA Group - Cairo, Egypt</a></h2>
-            <p>
-              - Collaborated with airline officials for timely updates on new offers and flight changes.
-              <br>
-              - Addressed customers' inquiries via phone calls, emails, and social media channels, delivering accurate information to assist them.
-              <br>
-              - Utilized Amadeus system to manage customers’ flights, including booking modifications, schedule changes, and resolving customer issues related to flights.
-              <br>
-              - Utilized internal CRM systems (such as Zendesk and Freshdesk) to manage customer requests efficiently.
-            </p>
-          </li>
-          <li class="date" data-date="Aug 2014 - Jan 2017" data-aos="fade-right" data-aos-delay="200">
-            <h1>Manager of Tourism Department</h1>
-            <h2><a>Rabie Tours - Cairo, Egypt</a></h2>
-            <p>
-              - Successfully led and managed a team of 40 professionals, fostering a collaborative and motivated work environment to meet and exceed customer expectations.
-              <br>
-              - Developed and calculated customized tour packages for both individuals and groups.
-              <br>
-              - Collaborated with hotels, airlines, and transportation companies to secure optimal offers and competitive prices.
-              <br>
-              - Leveraged strong negotiation skills to obtain favorable terms for travel services.
-            </p>
-          </li>
-          </li>
-          <li class="date" data-date="May 2011 - Aug 2014" data-aos="fade-right" data-aos-delay="200">
-            <h1>Ticketing Agent and Tour Leader</h1>
-            <h2><a>Rabie Tours - Cairo, Egypt</a></h2>
-            <p>
-              - Responsible for issuing, reissuing, and refunding flight tickets for both individuals and groups.
-              <br>
-              - Communicated with the airlines to get the best deals.
-              <br>
-              - Led the groups of travelers, supporting them throughout their trips at the airports, hotels, and sightseeing visits.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="education" id="education">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Education</h1>
-      </div>
-      <div class="timeline" data-aos="fade-down" data-aos-delay="50">
-        <ul>
-          <li class="date" data-date="Oct 2006 - May 2010" data-aos="fade-right" data-aos-delay="200">
-            <h1>BA</h1>
-            <h2>
-              <a>Future Academy</a>
-            </h2>
-            <p>BA in Tourism Management.</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section class="languages" id="languages">
-    <div class="container">
-      <div class="section-heading">
-        <h1>Languages</h1>
-      </div>
-      <div class="timeline" data-aos="fade-down" data-aos-delay="50">
-        <ul>
-          <li class="date"  data-aos="fade-right" data-aos-delay="200">
-            <h1>English</h1>
-            <p>Excellent professional business knowledge both written and spoken</p>
-          </li>
-          <li class="date"  data-aos="fade-right" data-aos-delay="200">
-            <h1>German</h1>
-            <p>Basic business knowledge - A2</p>
-          </li>
-          <li class="date"  data-aos="fade-right" data-aos-delay="200">
-            <h1>Arabic</h1>
-            <p>Native speaker</p>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="contact" id="contact">
-    <div class="container">
-      <div class="contact-details" data-aos="fade-in" data-aos-delay="300">
-        <div class="contact-heading">
-          <h1>Contact</h1>
-          <h6>Me</h6>
-        </div>
-        <p>
-          Reach to me for any inquiries or any questions.
-          <br />
-          Let's discuss and make an awesome experience.
-        </p>
-        <div class="social-media">
-          <ul class="nav-list">
-            <li>
-              <a href="tel:+4917632306048" target="_blank" class="icon-link">
-                <abbr title="Mobile"><i class="fas fa-mobile"></i></abbr>
-              </a>
             </li>
-            <li>
-              <a href="mailto:zaky.aly88@gmail.com" target="" class="icon-link">
-                <abbr title="E-mail"><i class="fas fa-square-envelope"></i></abbr>
-              </a>
+            <li
+              class="date"
+              data-date="Sep 2023 - Mar 2024"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <h1>Career Mentorship For Frontend Developer</h1>
+              <h2>
+                <a href="https://mentorcruise.com/" target="_blank">
+                  mentorcruise.com
+                </a>
+              </h2>
+              <p>
+                - Hands-on training with highly experienced frontend developer.
+                The training enhanced my technical skills and enabled me to:
+                <br />
+                - Translate ideas into functional pages and software systems.
+                <br />
+                - Use HTML, CSS, Javascript, Typescript, and React to build real
+                projects.
+                <br />
+                - Apply best practices of clean code in my own projects.
+              </p>
             </li>
-            <li>
-              <a href="https://www.linkedin.com/in/zaky-aly-2a3896103/" target="_blank" class="icon-link">
-                <abbr title="Linkedin"><i class="fab fa-linkedin"></i></abbr>
-              </a>
-            </li>
-            <li>
-              <a href="https://github.com/ZakyAly" target="_blank" class="icon-link">
-                <abbr title="Github"><i class="fab fa-github"></i></abbr>
-              </a>
+
+            <li
+              class="date"
+              data-date="Jan 2021"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>The Complete Web Developer</h1>
+              <h2>
+                <a href="https://zerotomastery.io/" target="_blank"
+                  >ZTM Academy</a
+                >
+              </h2>
+              <p>
+                37-hours web development bootcamp that covered the most
+                up-to-date and in- demand tech skills, such as: HTML5, CSS3,
+                Javascript, React.js, Restful APIs, NPM, Node.js, Git and Github
+                , Production and Deployment
+              </p>
             </li>
           </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <section class="experince" id="experince">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Work Experience</h1>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="50">
+          <ul>
+            <li
+              class="date"
+              data-date="June 2022 - Present"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>Front-end Developer</h1>
+              <p>
+                - Working on different projects, implementing web applications
+                and landing pages from concept through deployment. Check out My
+                Projects Section.
+                <br />
+                - Developing front-end applications utilizing cutting-edge
+                technologies like ES6, React, React Hooks, and more.
+                <br />
+                - Developing completely isolated and reusable components.
+              </p>
+            </li>
+            <li
+              class="date"
+              data-date="Feb - May 2021"
+              data-aos="fade-right"
+              data-aos-delay="100"
+            >
+              <h1>Frontend Developer - Intern</h1>
+              <h2><a>Energenious GmbH - Berlin, Germany</a></h2>
+              <p>
+                A journey of three month fueled by code and curiosity. I honed
+                my skills in implementing UI designs using React, React Hooks,
+                and Redux.
+              </p>
+            </li>
 
-  <footer class="copyright">
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-      <i class="fas fa-chevron-up"></i>
-    </button>
-    <p> &copy;2024 Zaky Aly </p>
-  </footer>
-  <script src="https://kit.fontawesome.com/cf8f1ac770.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script src="script.js"></script>
-</body>
+            <li
+              class="date"
+              data-date="Mar 2020 - Mar 2021"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>Time Off: A Grand Career Shift</h1>
+              <p>
+                I intentionally took time off to relocate to Berlin, where I
+                could wholeheartedly pursue my passion as a frontend developer.
+                Simultaneously, I embraced the deep joy and responsibility of
+                being a new dad to my little son.
+              </p>
+            </li>
+            <li
+              class="date"
+              data-date="Dec 2019 - Feb 2020"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>Senior Team Leader - Flight Customer Support</h1>
+              <h2>
+                <a href="https://www.seera.sa/" target="_blank"
+                  >SEERA Group - Cairo, Egypt</a
+                >
+              </h2>
+              <p>
+                - Oversaw a large-scale project involving 90 customer support
+                agents, led by 6 group leaders.
+                <br />
+                - Collaborated with the Customer Support Manager to develop
+                strategic action plans for the Flight Customer Support team.
+                <br />
+                - Coordinated cross-departmentally to achieve team targets and
+                enhance overall performance.
+                <br />
+                - Monitored and validated account loss sheets to ensure accuracy
+                and financial integrity.
+              </p>
+            </li>
+            <li
+              class="date"
+              data-date="May 2018 - Dec 2019"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>Team Leader - Flight Customer Support</h1>
+              <h2>
+                <a href="https://www.seera.sa/" target="_blank"
+                  >SEERA Group - Cairo, Egypt</a
+                >
+              </h2>
+              <p>
+                - Achievements: 4-Times Winner of the Top Achiever Award for
+                maintaining exceptional QA performance.
+                <br />
+                - Successfully built and led a team of 15 agents, aligning with
+                company objectives for customer support.
+                <br />
+                - Mentored newly recruited agents, providing guidance on
+                Amadeus, Zendesk, Freshdesk, and call interaction systems.
+                <br />
+                - Trained the team to excel on the company’s Quality Scoring
+                Sheet for customer support agents.
+                <br />
+                - Monitored monthly financial dues for the team in addition to
+                managing their KPIs and APR reports.
+              </p>
+            </li>
+            <li
+              class="date"
+              data-date="Jan 2017 - May 2018"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>Customer Support Agent</h1>
+              <h2>
+                <a href="https://www.seera.sa/" target="_blank"
+                  >SEERA Group - Cairo, Egypt</a
+                >
+              </h2>
+              <p>
+                - Collaborated with airline officials for timely updates on new
+                offers and flight changes.
+                <br />
+                - Addressed customers' inquiries via phone calls, emails, and
+                social media channels, delivering accurate information to assist
+                them.
+                <br />
+                - Utilized Amadeus system to manage customers’ flights,
+                including booking modifications, schedule changes, and resolving
+                customer issues related to flights.
+                <br />
+                - Utilized internal CRM systems (such as Zendesk and Freshdesk)
+                to manage customer requests efficiently.
+              </p>
+            </li>
+            <li
+              class="date"
+              data-date="Aug 2014 - Jan 2017"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>Manager of Tourism Department</h1>
+              <h2><a>Rabie Tours - Cairo, Egypt</a></h2>
+              <p>
+                - Successfully led and managed a team of 40 professionals,
+                fostering a collaborative and motivated work environment to meet
+                and exceed customer expectations.
+                <br />
+                - Developed and calculated customized tour packages for both
+                individuals and groups.
+                <br />
+                - Collaborated with hotels, airlines, and transportation
+                companies to secure optimal offers and competitive prices.
+                <br />
+                - Leveraged strong negotiation skills to obtain favorable terms
+                for travel services.
+              </p>
+            </li>
 
+            <li
+              class="date"
+              data-date="May 2011 - Aug 2014"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>Ticketing Agent and Tour Leader</h1>
+              <h2><a>Rabie Tours - Cairo, Egypt</a></h2>
+              <p>
+                - Responsible for issuing, reissuing, and refunding flight
+                tickets for both individuals and groups.
+                <br />
+                - Communicated with the airlines to get the best deals.
+                <br />
+                - Led the groups of travelers, supporting them throughout their
+                trips at the airports, hotels, and sightseeing visits.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Education</h1>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="50">
+          <ul>
+            <li
+              class="date"
+              data-date="Oct 2006 - May 2010"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <h1>BA</h1>
+              <h2>
+                <a>Future Academy</a>
+              </h2>
+              <p>BA in Tourism Management.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="languages" id="languages">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Languages</h1>
+        </div>
+        <div class="timeline" data-aos="fade-down" data-aos-delay="50">
+          <ul>
+            <li class="date" data-aos="fade-right" data-aos-delay="200">
+              <h1>English</h1>
+              <p>
+                Excellent professional business knowledge both written and
+                spoken
+              </p>
+            </li>
+            <li class="date" data-aos="fade-right" data-aos-delay="200">
+              <h1>German</h1>
+              <p>Basic business knowledge - A2</p>
+            </li>
+            <li class="date" data-aos="fade-right" data-aos-delay="200">
+              <h1>Arabic</h1>
+              <p>Native speaker</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact-details" data-aos="fade-in" data-aos-delay="300">
+          <div class="contact-heading">
+            <h1>Contact</h1>
+          </div>
+          <p>
+            Reach to me for any inquiries or any questions.
+            <br />
+            Let's discuss and make an awesome experience.
+          </p>
+          <div class="social-media">
+            <ul class="nav-list">
+              <li>
+                <a href="tel:+4917632306048" target="_blank" class="icon-link">
+                  <abbr title="Mobile"><i class="fas fa-mobile"></i></abbr>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:zaky.aly88@gmail.com"
+                  target=""
+                  class="icon-link"
+                >
+                  <abbr title="E-mail"
+                    ><i class="fas fa-square-envelope"></i
+                  ></abbr>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/zaky-aly-2a3896103/"
+                  target="_blank"
+                  class="icon-link"
+                >
+                  <abbr title="Linkedin"><i class="fab fa-linkedin"></i></abbr>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/ZakyAly"
+                  target="_blank"
+                  class="icon-link"
+                >
+                  <abbr title="Github"><i class="fab fa-github"></i></abbr>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="copyright">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+      </button>
+      <p>Copyright &copy;2024 Zaky Aly. All Rights Reserved.</p>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/cf8f1ac770.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
 </html>
