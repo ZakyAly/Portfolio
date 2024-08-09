@@ -8,20 +8,11 @@
 
 html {
   scroll-behavior: smooth;
-  /* color: #eee;
-  font-size: 10px;
-  font-family: "Open Sans", sans-serif; */
 }
 
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fff;
-
-  /* width: 100%;
-  height: 100%; */
-
-  /* background: url(./imgs/cover01.jpg) no-repeat center fixed; */
-  /* background-size: cover; */
 }
 
 section {
@@ -31,7 +22,6 @@ section {
 a {
   text-decoration: none;
   color: #000;
-  /* color: #eee; */
 }
 a,
 .btn {
@@ -65,12 +55,10 @@ img {
 
 .section-heading h1 {
   font-size: 3.5rem;
-  /* color: rgba(225, 225, 225, 3); */
   color: #000;
   text-transform: uppercase;
   font-weight: 300;
   position: relative;
-  /* margin-bottom: 1rem; */
 }
 
 .section-heading h1::before,
@@ -111,7 +99,6 @@ header {
   position: fixed;
   top: -100vh;
   z-index: 50;
-  /* background-color: #16162d; */
   background-color: rgb(85, 85, 85, 0.95);
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
@@ -169,7 +156,6 @@ li {
 }
 
 .bar {
-  /* background: linear-gradient(to right, #ffe838, #fd57bf); */
   background: rgba(85, 85, 85, 0.61);
   width: 100%;
   height: 2px;
@@ -240,24 +226,7 @@ li {
   z-index: 1;
 }
 
-/* .landing-text h1,
-h3 {
-  font-size: 15rem;
-  font-family: "Arizonia", cursive;
-  background: linear-gradient(to top, #ffe838, #fd57bf);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: 1rem;
-  user-select: none;
-} */
-
-.landing-text h6 {
-  font-size: 2rem;
-  font-weight: 300;
-}
-
 section .hero {
-  /* padding: 6rem 0; */
   padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
@@ -323,7 +292,6 @@ section .hero {
   width: 2rem;
   height: 2rem;
   margin: 0 1rem;
-  /* justify-content: center; */
 }
 /*End header*/
 
@@ -390,7 +358,6 @@ section .hero {
 
 .skills .skill-box .skill-name {
   letter-spacing: 2.5px;
-  /* color: #ffe838; */
   color: #000;
   font-weight: bold;
   text-align: center;
@@ -486,7 +453,6 @@ section .hero {
 .project-btn-container button {
   padding: 1rem;
   width: 8rem;
-  /* font-size: 12px; */
   font-weight: 600;
   color: black;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -501,59 +467,6 @@ section .hero {
   color: white;
   cursor: pointer;
 }
-
-/* .project .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.project-heading {
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 0;
-  margin-bottom: 6rem;
-}
-
-.project-heading h1 {
-  font-size: 3rem;
-  opacity: 0.3;
-  justify-content: center;
-}
-.project p {
-  text-align: center;
-}
-
-.project-img {
-  flex: 0.8;
-  margin-right: 10rem;
-}
-
-.project .container .project-img img {
-  margin-top: 1rem;
-  height: 250px;
-  width: 100%;
-  border-radius: 5%;
-}
-
-.project-text span {
-  color: #ffe838d3;
-  text-decoration: underline;
-}
-
-.project-details {
-  flex: 1;
-}
-
-.project-text i {
-  margin-left: 5px;
-  padding-bottom: 2px;
-  border-bottom: 1px solid;
-}
-.project-text i:hover {
-  color: #ffe838;
-} */
 /*End Projects*/
 
 /*Start portfolio*/
@@ -677,35 +590,25 @@ section .hero {
 /*End timeline*/
 
 /*Start contact*/
+.contact {
+  display: flex;
+  justify-content: center;
+}
 .contact .container {
   display: flex;
   align-items: center;
   text-align: center;
   margin: 8rem 0;
 }
-
 .contact-heading {
   text-align: center;
   text-transform: uppercase;
   line-height: 0;
   margin-bottom: 6rem;
 }
-
 .contact-heading h1 {
   font-size: 10rem;
   opacity: 0.3;
-}
-
-/* .contact-heading h6 {
-  margin-top: 5.5rem;
-  font-size: 3rem;
-  font-weight: 300;
-  text-align: center;
-} */
-
-.profile-img {
-  flex: 1;
-  margin-right: 5rem;
 }
 
 .contact-details {
@@ -732,6 +635,7 @@ section .hero {
 }
 
 .fa-linkedin {
+  border-radius: 0.5rem;
   background: radial-gradient(
     circle at 30% 107%,
     #0e76a8 0%,
@@ -746,21 +650,7 @@ section .hero {
   font-size: 4rem;
 }
 
-.icon-link .fa-github {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #0e76a8 0%,
-    #0e76a8 5%,
-    #0e76a8 45%,
-    #0e76a8 60%,
-    #0e76a8 90%
-  );
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.fa-facebook {
+/* .fa-facebook {
   background: radial-gradient(
     circle at 30% 107%,
     #4267b2 0%,
@@ -791,7 +681,7 @@ section .hero {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 4rem;
-}
+} */
 
 /*End contact*/
 
@@ -852,10 +742,6 @@ section .hero {
 /* media queries */
 
 @media screen and (max-width: 1200px) {
-  body {
-    /* background: url(./imgs/cover01.jpg) no-repeat center fixed; */
-    /* background-size: cover; */
-  }
   .landing-text h1 {
     font-size: 15rem;
   }
