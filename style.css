@@ -599,7 +599,7 @@ section .hero {
   display: flex;
   align-items: center;
   text-align: center;
-  margin: 8rem 0;
+  margin: 4rem 0;
 }
 .contact-heading {
   text-align: center;
@@ -690,15 +690,14 @@ section .hero {
 .copyright {
   width: 100%;
   text-align: center;
-  /* background-color: #16162d; */
-  background-color: rgba(85, 85, 85, 0.7);
   padding: 0.2rem 0;
   position: relative;
 }
 
 .copyright p {
-  color: #fff;
+  color: rgba(85, 85, 85, 0.7);
   font-size: 1rem;
+  padding-bottom: 1rem;
 }
 
 #myBtn {
