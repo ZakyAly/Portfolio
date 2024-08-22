@@ -32,6 +32,7 @@ p {
   font-size: 1.2rem;
   font-weight: 300;
   color: rgb(85, 85, 85);
+  cursor: default;
 }
 
 img {
@@ -216,17 +217,6 @@ li {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
-
-.landing-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  text-align: center;
-  z-index: 1;
-}
-
 section .hero {
   padding-top: 4vh;
   height: 96vh;
@@ -365,36 +355,13 @@ section .hero {
   font-weight: 600;
   text-align: center;
   line-height: 30px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-top: 4rem;
   border: 1px solid;
   padding: 4px 17px;
   border-radius: 40px;
   cursor: default;
 }
-.skills .skill-box .skill-name i {
-  text-align: center;
-  font-size: 2rem;
-}
-
-.skill {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-}
-
-.skill .skill-container {
-  display: flex;
-  padding: 1px;
-}
-
-.skill-container i {
-  color: #ffe838;
-  font-size: 5rem;
-  margin: auto;
-}
-/*End Skills*/
 
 /*Start Projects*/
 
@@ -470,57 +437,16 @@ section .hero {
 }
 /*End Projects*/
 
-/*Start portfolio*/
-.portfolio-item {
+/*Start timeline*/
+.timeline {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;
 }
-
-.portfolio-item:last-child {
-  margin-bottom: 0;
-}
-
-.portfolio-img {
-  width: 50rem;
-  flex: 1;
-}
-
-.portfolio-description h1 {
-  font-size: 3rem;
-  font-weight: 300;
-  margin: 1rem 0;
-}
-
-.portfolio-description h6 {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  font-weight: 300;
-  opacity: 0.3;
-}
-
-.portfolio-description .cta {
-  display: inline-block;
-  margin-top: 2.5rem;
-  font-size: 1.5rem;
-  text-transform: uppercase;
-  color: #3883ff;
-  transition: color 3650ms;
-}
-
-.portfolio-description .cta:hover {
-  color: #2f67cd;
-}
-/*End portfolio*/
-
-/*End timeline*/
 .timeline ul {
   border-left: 4px solid #ffe838;
   border-radius: 0.8rem;
   background-color: rgba(0, 0, 0, 0.05);
-  margin: 0 auto;
-  position: relative;
+  margin-top: 1rem;
   padding: 5rem;
   list-style: none;
   text-align: left;
@@ -742,70 +668,44 @@ section .hero {
 /* media queries */
 
 @media screen and (max-width: 1200px) {
-  .landing-text h1 {
-    font-size: 15rem;
-  }
-
-  .landing-text h6 {
-    font-size: 1.7rem;
-  }
-
   .nav-list {
     flex-direction: column;
   }
-
   li {
     margin: 2rem 0;
   }
-
   .nav-link {
     font-size: 4.5rem;
   }
-
   .about-heading h1 {
-    font-size: 8rem;
+    font-size: 6rem;
   }
-
   .section-heading h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
-
   .about-details .nav-list {
     flex-direction: initial;
   }
-
   .about-details li {
     margin: 0 2rem;
   }
-
   .icon-container {
     width: 7rem;
     height: 7rem;
   }
-
   .icon-container i {
     font-size: 4rem;
   }
 
-  .timeline ul {
-    margin: 0 0 0 auto;
-  }
   .timeline .date::before {
     left: -22rem;
   }
   .timeline .date::after {
     left: -5.9rem;
   }
-
   .menu-toggler {
     top: 2rem;
     right: 2rem;
-  }
-  .landing-text h1 {
-    font-size: 8rem;
-  }
-  .landing-text h6 {
-    font-size: 1.4rem;
   }
   .nav-link {
     font-size: 3.5rem;
@@ -816,17 +716,6 @@ section .hero {
   .profile-img {
     margin: 0 0 7rem 0;
     max-width: 400px;
-  }
-  .portfolio-item {
-    flex-direction: column;
-  }
-  .portfolio-img {
-    margin: 0 0 2rem 0;
-    border: 1;
-  }
-  .portfolio-description {
-    margin: 0;
-    border: 2;
   }
   .timeline p {
     font-size: 1.6rem;
@@ -841,7 +730,7 @@ section .hero {
     right: 2rem;
   }
   .contact-heading h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
   }
   .social-media .nav-list {
     display: flex;
@@ -851,5 +740,27 @@ section .hero {
 
   .projects-container {
     flex-direction: column;
+  }
+  .timeline ul {
+    border-left: 2px solid #ffe838;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    list-style: none;
+    text-align: left;
+    width: 90%;
+  }
+
+  .timeline h1 {
+    font-size: 1.2rem;
+    margin-top: 2.5rem;
+  }
+
+  .timeline h2 a {
+    font-size: 1rem;
+  }
+
+  .timeline p {
+    padding-top: 30px;
+    font-size: 1rem;
   }
 }
